@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+
+    --reg: 400;
+    --bold: 700;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: var(--LightGray);
+}
+
+h3, p {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.628);
+}
+
+.container {
+    margin: 4rem 2rem;
+}
+
+.content__one {
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 0.45rem 0.45rem 0 0;
+    
+}
+
+.content__one h3 {
+    color: var(--Cyan);
+}
+
+.content__one p:first-of-type {
+    color: var(--BrightYellow);
+    font-weight: var(--bold);
+}
+
+.content__one p:last-of-type {
+    color: hsl(204, 7%, 71%);
+    line-height: 1.3rem;
+}
+
+.content__two {
+    background-color: var(--Cyan);
+    padding: 1.3rem;
+    color: white;
+}
+
+.content__two p:first-of-type {
+    font-size: 32px;
+    font-weight: var(--bold);
+}
+
+.content__two p span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.443);
+}
+
+.content__two button {
+    background-color: var(--BrightYellow);
+    text-align: center;
+    padding: 1rem 6.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: 0;
+    margin-top: 1rem;
+}
+
+.content__three {
+    background-color: hsla(179, 62%, 43%, 0.671);
+    padding: 1.3rem;
+    border-radius: 0 0 0.45rem 0.45rem;
+    color: white;
+    line-height: 1.3rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:1024px) {
+    .container {
+        display: grid;
+        width: 700px;
+        margin: 8rem auto; 
+    }
+
+    .content__one {
+        grid-column: 1 / 3;
+        padding-right: 17rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+
+    .content__two {
+       grid-row: 2 / span 1; 
+       width: 350px;
+       border-radius: 0 0 0 0.45rem;
+       padding: 2rem;
+    }
+
+    .content__three {
+        grid-row: 2 / span 1;
+        width: 350px;
+        border-radius: 0 0 0.45rem 0;
+        padding: 2rem;
+    }
+}
