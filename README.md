@@ -1,10 +1,9 @@
-# Frontend Mentor - Single price grid component solution
+# Single price grid component
 
-This is My solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is My solution to a Single price grid component (ideally used for monthly subscriptions to services). 
 
 ## Table of contents
 
-  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -12,8 +11,6 @@ This is My solution to the [Single price grid component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Author](#author)
 
-
-## Overview
 
 ### The challenge
 
@@ -32,8 +29,6 @@ Users should be able to:
 - Live Site URL: [https://bozjr-single-price-grid-component.netlify.app/](https://bozjr-single-price-grid-component.netlify.app/)
 
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -49,5 +44,5 @@ Need to use more of the Css GRID property as this is something i am not yet 100%
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
+- GitHub Profile - https://github.com/BozJR?tab=repositories
 
